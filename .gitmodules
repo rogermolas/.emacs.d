@@ -4,3 +4,6 @@
 [submodule "plugin-lisp/imenu-anywhere"]
 	path = plugin-lisp/imenu-anywhere
 	url = https://github.com/vspinu/imenu-anywhere.git
+[submodule "plugin-lisp/highlight-symbol"]
+	path = plugin-lisp/highlight-symbol
+	url = https://github.com/nschum/highlight-symbol.el.git
