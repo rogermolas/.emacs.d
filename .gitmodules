@@ -1,3 +1,6 @@
 [submodule "plugin-lisp/neotree"]
 	path = plugin-lisp/neotree
 	url = https://github.com/jaypei/emacs-neotree.git
+[submodule "plugin-lisp/imenu-anywhere"]
+	path = plugin-lisp/imenu-anywhere
+	url = https://github.com/vspinu/imenu-anywhere.git
