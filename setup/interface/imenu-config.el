@@ -3,7 +3,7 @@
 ;;;    Customization and configuration for imenu
 ;;; Code:
 
-(add-to-list 'load-path "~/.emacs.d/setup/plugins-lisp/imenu-anywhere")
+(add-to-list 'load-path "~/.emacs.d/plugin-lisp/imenu-anywhere")
 (require 'imenu-anywhere)
 
 (global-set-key (kbd "s-2") 'imenu-anywhere)

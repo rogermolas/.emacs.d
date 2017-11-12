@@ -3,7 +3,7 @@
 ;;;    Customization and configuration for highlight-symbol.el
 ;;; Code:
 
-(add-to-list 'load-path "~/.emacs.d/setup/plugins-lisp/highlight-symbols")
+(add-to-list 'load-path "~/.emacs.d/plugin-lisp/highlight-symbol")
 (require 'highlight-symbol)
 (global-set-key [s-mouse-1] 'highlight-symbol-mode)
 (global-set-key [s-mouse-2] 'highlight-symbol-query-replace)

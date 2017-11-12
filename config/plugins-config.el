@@ -5,17 +5,14 @@
 ;; Commentary:
 ;; Code:
 ;; Load path
-(add-to-list 'load-path "~/.emacs.d/setup/config/plugins-config/interface")
-(add-to-list 'load-path "~/.emacs.d/setup/config/plugins-config/navigation")
-(add-to-list 'load-path "~/.emacs.d/setup/config/plugins-config/programming")
+(add-to-list 'load-path "~/.emacs.d/setup/interface")
+(add-to-list 'load-path "~/.emacs.d/setup/navigation")
+(add-to-list 'load-path "~/.emacs.d/setup/programming")
 
 ;; ========== ========== ========== ========== ==========
 ;; ************** FILE / DIRECTORY MANAGER  *************
 ;; ========== ========== ========== ========== ==========
-(add-to-list 'load-path "~/.emacs.d/setup/plugins-lisp/neotree")
-(require 'neotree)
-(global-set-key (kbd "s-1") 'neotree-toggle)
-(setq neo-theme (quote nerd))
+(require 'neotree-config)
 
 ;; ========== ========== ========== ========== ==========
 ;; ******************** INTERFACE ***********************
@@ -31,11 +28,6 @@
 
 ;; Add imenu
 (require 'imenu-config)
-
-;; Add tabbar
-(add-to-list 'load-path "~/.emacs.d/setup/plugins-lisp/tabbar")
-(require 'tabbar)
-(setq tabbar-use-images nil)
 
 ;; Invoke occur from within isearch
   (defun isearch-occur ()
