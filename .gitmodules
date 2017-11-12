@@ -7,3 +7,6 @@
 [submodule "plugin-lisp/highlight-symbol"]
 	path = plugin-lisp/highlight-symbol
 	url = https://github.com/nschum/highlight-symbol.el.git
+[submodule "plugin-lisp/nav-flash"]
+	path = plugin-lisp/nav-flash
+	url = https://github.com/rolandwalker/nav-flash.git
