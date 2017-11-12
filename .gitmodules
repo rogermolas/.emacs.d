@@ -10,3 +10,9 @@
 [submodule "plugin-lisp/nav-flash"]
 	path = plugin-lisp/nav-flash
 	url = https://github.com/rolandwalker/nav-flash.git
+[submodule "plugin-lisp/auto-complete"]
+	path = plugin-lisp/auto-complete
+	url = https://github.com/auto-complete/auto-complete.git
+[submodule "plugin-lisp/popup"]
+	path = plugin-lisp/popup
+	url = https://github.com/auto-complete/popup-el.git

@@ -3,8 +3,8 @@
 ;;;    Customization and configuration for auto-completion.
 ;;; Code:
 
-(add-to-list 'load-path "~/.emacs.d/setup/plugins-lisp/popup")
-(add-to-list 'load-path "~/.emacs.d/setup/plugins-lisp/auto-complete")
+(add-to-list 'load-path "~/.emacs.d/plugin-lisp/popup")
+(add-to-list 'load-path "~/.emacs.d/plugin-lisp/auto-complete")
 (require 'auto-complete-config)
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
 (ac-config-default)
