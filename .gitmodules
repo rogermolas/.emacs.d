@@ -16,3 +16,12 @@
 [submodule "plugin-lisp/popup"]
 	path = plugin-lisp/popup
 	url = https://github.com/auto-complete/popup-el.git
+[submodule "plugin-lisp/magit"]
+	path = plugin-lisp/magit
+	url = https://github.com/magit/magit.git
+[submodule "plugin-lisp/with-editor"]
+	path = plugin-lisp/with-editor
+	url = https://github.com/magit/with-editor.git
+[submodule "plugin-lisp/dash"]
+	path = plugin-lisp/dash
+	url = https://github.com/magnars/dash.el.git

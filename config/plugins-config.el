@@ -63,6 +63,9 @@
 ;; **************** Commands/Environment ****************
 ;; ========== ========== ========== ========== ==========
 
+;; Magit
+(require 'magit-config)
+
 (setenv "PATH" (concat "/usr/local/bin:/opt/local/bin:/usr/bin:/bin" (getenv "PATH")))
 (require 'cl)
 
