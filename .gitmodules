@@ -16,3 +16,6 @@
 [submodule "plugin-lisp/popup"]
 	path = plugin-lisp/popup
 	url = https://github.com/auto-complete/popup-el.git
+[submodule "plugin-lisp/powerline"]
+	path = plugin-lisp/powerline
+	url = https://github.com/jonathanchu/emacs-powerline.git
