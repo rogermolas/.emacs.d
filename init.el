@@ -50,7 +50,8 @@
      (top . left)
      (bottom . left)
      (up . left)
-     (down . left)))))
+     (down . left))))
+ '(package-selected-packages (quote (magit))))
 
 (provide 'init) ;;; init.el ends here
 
