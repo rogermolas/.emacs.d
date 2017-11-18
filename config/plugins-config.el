@@ -38,6 +38,9 @@
 (define-key isearch-mode-map (kbd "C-c o") 'isearch-occur)
 (global-set-key (kbd "C-c o") 'isearch-occur)
 
+;; Power line
+(require 'powerline-config)
+
 ;; ========== ========== ========== ========== ==========
 ;; ******************* PROGRAMMING **********************
 ;; ========== ========== ========== ========== ==========

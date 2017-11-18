@@ -122,6 +122,10 @@
 
    ;; Highlight symbol
    `(highlight-symbol-face ((,class (:background,white :foreground,black))))
+
+   ;; Power line
+   `(mode-line ((t (:foreground,foreground :background,gray :box nil))))
+   `(mode-line-inactive ((t (:foreground,foreground :background,dgray :box nil))))
 ))
 
 ;; Autoload for MELPA
