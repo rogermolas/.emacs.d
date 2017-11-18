@@ -50,6 +50,9 @@
 ;; Line Numbers
 (require 'linum-config)
 
+;; Anzu count search and replace functio
+(require 'anzu-config)
+
 ;; Code folding
 (require 'code-folding-config)
 
