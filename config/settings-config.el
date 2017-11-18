@@ -61,5 +61,11 @@
 ;; Remove sound on scroll
 (setq visible-bell t)
 
+;; Powerline
+(set-face-attribute 'mode-line nil
+                    :foreground "Black"
+                    :background "DarkOrange"
+                    :box nil)
+
 (provide 'settings-config);;; ends of settings-config.el
 

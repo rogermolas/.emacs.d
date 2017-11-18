@@ -70,8 +70,8 @@
 
    ;; Mode line
    `(mode-line          ((,class (:background,sgray :foreground,black :box(:line-width 1 :color,sgray)))))
-   `(mode-line-inactive ((,class (:background,sgray :foreground,black :box(:line-width 1 :color,sgray)))))
-   `(mode-line-highlight((,class (:background,white :foreground,black :box(:line-width 3 :color,sgray)))))
+   `(mode-line-inactive ((,class (:background,dgray :foreground,white :box(:line-width 1 :color,dgray)))))
+   `(mode-line-highlight((,class (:background,selection :foreground,white :box(:line-width 3 :color,sgray)))))
    
    ;; IDO
    `(ido-first-match((,class (:foreground,green :underline,green))))
@@ -112,10 +112,6 @@
 
    ;; Highlight symbol
    `(highlight-symbol-face ((,class (:background,white :foreground,black))))
-
-   ;; Power line
-   `(mode-line ((t (:foreground,foreground :background,gray :box nil))))
-   `(mode-line-inactive ((t (:foreground,foreground :background,dgray :box nil))))
 ))
 
 ;; Autoload for MELPA
