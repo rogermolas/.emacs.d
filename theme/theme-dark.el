@@ -32,17 +32,17 @@
    `(default ((,class (:background,background :foreground,foreground))))
    `(linum   ((,class (:background,dgray :foreground,text-4))))
    `(isearch ((,class (:background,white :foreground,black))))
-   `(match   ((,class (:box(:line-width 1 :color,white)))))
+   `(match   ((,class (:background,sgray :foreground,black))))
    
    `(region  ((,class (:background,selection))))
    `(cursor  ((,class (:background,white))))
    `(fringe  ((,class (:background,dgray))))
    
    ;; Highlight
-   `(highlight      ((,class (:background,white :foreground,black))))
-   `(lazy-highlight ((,class (:box(:line-width 1 :color,white)))))
-
-   ;; Font faces
+   `(highlight      ((,class (:background,selection))))
+   (set-face-attribute 'lazy-highlight nil :background sgray :foreground black)
+   
+   ;; Font facesx
    `(font-lock-string-face            ((,class (:foreground,text-3 :weight bold :slant italic)))); Strings
    `(font-lock-comment-face           ((,class (:foreground,text-4 :slant italic)))); Comments
    `(font-lock-comment-delimiter-face ((,class (:inherit font-lock-comment-face))))
@@ -69,8 +69,8 @@
    `(warning ((,class (:foreground,yellow :weight bold))))
 
    ;; Mode line
-   `(mode-line          ((,class (:background,sgray :foreground,black :box(:line-width 1 :color,sgray)))))
-   `(mode-line-inactive ((,class (:background,dgray :foreground,white :box(:line-width 1 :color,dgray)))))
+   `(mode-line          ((,class (:background,sgray :foreground,black))))
+   `(mode-line-inactive ((,class (:background,dgray :foreground,white))))
    `(mode-line-highlight((,class (:background,selection :foreground,white :box(:line-width 3 :color,sgray)))))
    
    ;; IDO
