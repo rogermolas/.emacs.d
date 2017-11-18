@@ -110,16 +110,6 @@
    `(neo-file-link-face  ((,class (:foreground,dyellow :height 115))))
    `(neo-expand-btn-face ((,class (:foreground,text-2 :height 115 :weight bold))))
 
-   ;; Tabbar
-   `(tabbar-default          ((,class (:background,background :foreground,foreground :height 0.9))))
-   `(tabbar-button           ((,class (:box (:line-width 1 :color,gray)))))
-   `(tabbar-highlight        ((,class (:background,white :foreground,black :underline t))))
-   `(tabbar-button-highlight ((,class (:background,white :foreground,black))))
-   `(tabbar-selected         ((,class (:background,white :foreground,black))))
-   `(tabbar-unselected       ((,class (:inherit tabbar-default :box (:line-width 1 :color,white)))))
-   `(tabbar-separator        ((,class (:inherit tabbar-default))))
-   `(tabbar-modified         ((,class (:inherit tabbar-default :foreground,dyellow :box (:line-width 1 :color,white)))))
-
    ;; Highlight symbol
    `(highlight-symbol-face ((,class (:background,white :foreground,black))))
 
