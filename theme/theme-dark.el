@@ -71,7 +71,7 @@
    ;; Mode line
    `(mode-line          ((,class (:background,sgray :foreground,black))))
    `(mode-line-inactive ((,class (:background,dgray :foreground,white))))
-   `(mode-line-highlight((,class (:background,selection :foreground,white :box(:line-width 3 :color,sgray)))))
+   `(mode-line-highlight((,class (:background,selection :foreground,white))))
    
    ;; IDO
    `(ido-first-match((,class (:foreground,green :underline,green))))
