@@ -19,3 +19,6 @@
 [submodule "plugin-lisp/powerline"]
 	path = plugin-lisp/powerline
 	url = https://github.com/jonathanchu/emacs-powerline.git
+[submodule "plugin-lisp/anzu"]
+	path = plugin-lisp/anzu
+	url = https://github.com/syohex/emacs-anzu.git
