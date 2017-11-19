@@ -22,3 +22,4 @@
 (define-key isearch-mode-map [remap isearch-query-replace-regexp] #'anzu-isearch-query-replace-regexp)
 
 (provide 'anzu-config) ;;; auto-anzu-config.el ends here
+

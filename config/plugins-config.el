@@ -6,7 +6,6 @@
 ;; Code:
 ;; Load path
 (add-to-list 'load-path "~/.emacs.d/setup/interface")
-(add-to-list 'load-path "~/.emacs.d/setup/navigation")
 (add-to-list 'load-path "~/.emacs.d/setup/programming")
 
 ;; ========== ========== ========== ========== ==========
@@ -28,6 +27,8 @@
 
 ;; Add imenu
 (require 'imenu-config)
+;; Add imenu-list
+(require 'imenu-list-config)
 
 ;; Invoke occur from within isearch
   (defun isearch-occur ()

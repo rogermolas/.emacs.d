@@ -20,9 +20,8 @@
 (add-to-list 'load-path "~/.emacs.d/theme/")
 (require 'settings-config)
 (require 'plugins-config)
+(require 'mode-config)
 (require 'theme-dark)
-;(require 'mode-config)
-
 
 ;; Commentary
 ;; ========== ========== ========== ========== ========== ==========

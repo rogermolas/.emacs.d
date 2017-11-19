@@ -25,3 +25,6 @@
 [submodule "plugin-lisp-modes/markdown"]
 	path = plugin-lisp-modes/markdown
 	url = https://github.com/jrblevin/markdown-mode.git
+[submodule "plugin-lisp/imenu-list"]
+	path = plugin-lisp/imenu-list
+	url = https://github.com/bmag/imenu-list.git
