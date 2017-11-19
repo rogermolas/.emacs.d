@@ -22,3 +22,6 @@
 [submodule "plugin-lisp/anzu"]
 	path = plugin-lisp/anzu
 	url = https://github.com/syohex/emacs-anzu.git
+[submodule "plugin-lisp-modes/markdown"]
+	path = plugin-lisp-modes/markdown
+	url = https://github.com/jrblevin/markdown-mode.git
