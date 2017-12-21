@@ -28,3 +28,6 @@
 [submodule "plugin-lisp/imenu-list"]
 	path = plugin-lisp/imenu-list
 	url = https://github.com/bmag/imenu-list.git
+[submodule "plugin-lisp/yasnippet"]
+	path = plugin-lisp/yasnippet
+	url = https://github.com/joaotavora/yasnippet.git
