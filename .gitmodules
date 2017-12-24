@@ -31,3 +31,6 @@
 [submodule "plugin-lisp/yasnippet"]
 	path = plugin-lisp/yasnippet
 	url = https://github.com/joaotavora/yasnippet.git
+[submodule "plugin-lisp/snippets"]
+	path = plugin-lisp/snippets
+	url = https://github.com/AndreaCrotti/yasnippet-snippets.git

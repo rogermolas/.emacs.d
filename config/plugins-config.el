@@ -66,6 +66,9 @@
 ;; Auto complete
 (require 'auto-completion-config)
 
+;; yasnippet
+(require 'yasnippet-config)
+
 ;; ========== ========== ========== ========== ==========
 ;; **************** Commands/Environment ****************
 ;; ========== ========== ========== ========== ==========
