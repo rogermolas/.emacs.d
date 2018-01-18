@@ -5,6 +5,11 @@
 
 
 (add-to-list 'load-path "~/.emacs.d/setup/modes/")
+
+;; Mark Down
 (require 'markdown-config)
+
+;; C/C++
+(require 'c-c++-config)
 
 (provide 'mode-config) ;;; mode-config.el ends here
