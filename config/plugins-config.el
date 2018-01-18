@@ -69,6 +69,9 @@
 ;; yasnippet
 (require 'yasnippet-config)
 
+;; iedit
+(require 'iedit-config)
+
 ;; ========== ========== ========== ========== ==========
 ;; **************** Commands/Environment ****************
 ;; ========== ========== ========== ========== ==========
