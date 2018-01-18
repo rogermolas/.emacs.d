@@ -50,7 +50,7 @@
 
 ;; Font Size
 ;(set-face-attribute 'default nil :font "Lucida Sans Typewriter" :height 110)
-(set-face-attribute 'default nil :font "Menlo" :height 120)
+(set-face-attribute 'default nil :font "Menlo" :height 115)
 
 ;; Delete Selection (text or char)
 (delete-selection-mode 1)
