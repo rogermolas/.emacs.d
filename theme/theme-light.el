@@ -10,8 +10,8 @@
   "light faces")
 
 (let ((class '((class color)(min-colors 10)))
-      (background "#ebebeb") (foreground "#353535")
-      (selection "#CCCCCC")
+      (background "#FFFFFF") (foreground "#000000")
+      (selection "#A4CDFF")
       
       (keyword "#0000FF") (string "#45BB3E")
       (builtin "#2E0D6E")  (macro "#643820")
@@ -32,7 +32,7 @@
    `(default ((,class (:background,background :foreground,foreground))))
    `(linum   ((,class (:foreground,sgray))))
    `(isearch ((,class (:background,white :foreground,black))))
-   `(match   ((,class (:background,sgray :foreground,black))))
+   `(match   ((,class (:background,sgray :foregro2und,black))))
    
    `(region  ((,class (:background,selection))))
    `(cursor  ((,class (:background,black))))
@@ -106,7 +106,7 @@
    `(neo-banner-face     ((,class (:foreground,foreground :weight bold))))
    `(neo-root-dir-face   ((,class (:foreground,dgreen :weight bold))))
    `(neo-header-face     ((,class (:foreground,dgreen :height 115))))
-   `(neo-dir-link-face   ((,class (:inherit default :height 115))))
+   `(neo-dir-link-face   ((,class (:inherit default :height 115 :weight bold))))
    `(neo-file-link-face  ((,class (:foreground,foreground :height 115))))
    `(neo-expand-btn-face ((,class (:inherit default :height 115 :weight bold))))
 
