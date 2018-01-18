@@ -12,6 +12,7 @@
                     :foreground "black" :weight 'bold)
 
 (custom-set-variables
+ '(anzu-deactivate-region t)
  '(anzu-mode-lighter "")
  '(anzu-deactivate-region t)
  '(anzu-search-threshold 1000)
