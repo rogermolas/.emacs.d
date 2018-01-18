@@ -14,9 +14,9 @@
       (selection "#A4CDFF")
       
       (keyword "#0000FF") (string "#45BB3E")
-      (builtin "#2E0D6E")  (macro "#643820")
-      (variables "#26474B")  (comment "#777777")
-      (constants "#26474B")
+      (builtin "#2E0D6E") (macro "#643820")
+      (type "#26474B") (comment "#777777")
+      (constants "#26474B") (variables "#b18741") 
       
       (black  "#000000") (white   "#FFFFFF")
       (green  "#00FF00") (dgreen  "#00b200")
@@ -50,7 +50,7 @@
     `(font-lock-variable-name-face     ((,class (:foreground,variables)))) ; Variables
     `(font-lock-preprocessor-face      ((,class (:foreground,macro :weight bold)))); Pre processor macro
     `(font-lock-keyword-face           ((,class (:foreground,keyword)))); Language keyword
-    `(font-lock-type-face              ((,class (:foreground,variables)))); Data types
+    `(font-lock-type-face              ((,class (:foreground,type)))); Data types
     `(font-lock-function-name-face     ((,class (:foreground,foreground)))); Functions
     `(font-lock-builtin-face           ((,class (:foreground,builtin)))); Built in functions
     `(font-lock-negation-char-face     ((,class (:foreground,foreground)))); Characters like (e.g !)
