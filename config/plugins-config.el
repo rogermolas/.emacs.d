@@ -48,8 +48,6 @@
 
 ;; Commentary:
 ;; Code:
-;; Line Numbers
-(require 'linum-config)
 
 ;; Anzu count search and replace functio
 (require 'anzu-config)
@@ -69,8 +67,14 @@
 ;; yasnippet
 (require 'yasnippet-config)
 
+;; irony mode
+(require 'irony-config)
+
 ;; iedit
 (require 'iedit-config)
+
+;; Line Numbers
+(require 'linum-config)
 
 ;; ========== ========== ========== ========== ==========
 ;; **************** Commands/Environment ****************
