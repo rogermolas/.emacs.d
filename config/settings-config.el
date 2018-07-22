@@ -50,7 +50,7 @@
 
 ;; Font Size
 ;(set-face-attribute 'default nil :font "Lucida Sans Typewriter" :height 110)
-(set-face-attribute 'default nil :font "Menlo" :height 120)
+(set-face-attribute 'default nil :font "Menlo" :height 115)
 
 ;; Delete Selection (text or char)
 (delete-selection-mode 1)
@@ -61,8 +61,27 @@
 ;; Remove sound on scroll
 (setq visible-bell t)
 
+;; Remove the yellow alert icon
+(setq lexical-binding t
+      visible-bell nil
+      ring-bell-function 'asc:flash-background)
+(defun asc:flash-background ()
+  (let ((fg (face-foreground 'default))
+	(bg (face-background 'default)))
+    (run-with-idle-timer
+     1 nil (lambda ()
+	     (set-face-background 'default bg)
+	     (set-face-foreground 'default fg)))))
+
 ;; Truncate lines when exceeding window frame
 (set-default 'truncate-lines t)
+
+
+;; scroll one line at a time (less "jumpy" than defaults)
+(setq mouse-wheel-scroll-amount '(1 ((shift) . 1))) ;; one line at a time
+(setq mouse-wheel-progressive-speed nil) ;; don't accelerate scrolling    
+(setq mouse-wheel-follow-mouse 't) ;; scroll window under mouse
+(setq scroll-step 1) ;; keyboard scroll one line at a time
 
 (provide 'settings-config);;; ends of settings-config.el
 

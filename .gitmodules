@@ -34,3 +34,6 @@
 [submodule "plugin-lisp/snippets"]
 	path = plugin-lisp/snippets
 	url = https://github.com/AndreaCrotti/yasnippet-snippets.git
+[submodule "plugin-lisp/iedit"]
+	path = plugin-lisp/iedit
+	url = https://github.com/victorhge/iedit.git
