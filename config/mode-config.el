@@ -21,11 +21,17 @@
 (add-to-list 'auto-mode-alist '("README\\.md\\'" . gfm-mode))
 
 ;; C/C++
-;; Use irony from melpa repository
+;; Use irony package from melpa repository
 (add-hook 'c++-mode-hook 'irony-mode)
 (add-hook 'c-mode-hook 'irony-mode)
 (add-hook 'objc-mode-hook 'irony-mode)
 (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
+
+;; Python
+;; Use anaconda-mode package from melpa repository
+;; Standard Jedi.el setting
+(add-hook 'python-mode-hook 'anaconda-mode)
+
 
 
 ;; ================================================

@@ -45,10 +45,9 @@
      (bottom . left)
      (up . left)
      (down . left))))
-
  '(package-selected-packages
    (quote
-    (irony minimal-theme gandalf-theme apropospriate-theme solarized-theme magit))))
+    (anaconda-mode irony minimal-theme gandalf-theme apropospriate-theme solarized-theme magit))))
 
 (provide 'init) ;;; init.el ends here
 
