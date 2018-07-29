@@ -29,9 +29,7 @@
 
 ;; Python
 ;; Use anaconda-mode package from melpa repository
-;; Standard Jedi.el setting
 (add-hook 'python-mode-hook 'anaconda-mode)
-
 
 
 ;; ================================================

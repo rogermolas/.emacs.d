@@ -30,24 +30,10 @@
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(anzu-deactivate-region t)
- '(anzu-mode-lighter "")
- '(anzu-replace-threshold 50)
- '(anzu-replace-to-string-separator " => ")
- '(anzu-search-threshold 1000)
- '(comint-scroll-to-bottom-on-input t)
- '(fringe-mode (quote (4 . 0)) nil (fringe))
- '(indicate-buffer-boundaries
-   (quote
-    ((t . left)
-     (top . left)
-     (bottom . left)
-     (up . left)
-     (down . left))))
+ ;; If there is more than one, they won't work right. 
  '(package-selected-packages
    (quote
-    (anaconda-mode irony minimal-theme gandalf-theme apropospriate-theme solarized-theme magit))))
+    (flycheck anaconda-mode irony magit))))
 
 (provide 'init) ;;; init.el ends here
 

@@ -67,8 +67,8 @@
 ;; yasnippet
 (require 'yasnippet-config)
 
-;; irony mode
-(require 'irony-config)
+;; flycheck
+(require 'flycheck-config)
 
 ;; iedit
 (require 'iedit-config)

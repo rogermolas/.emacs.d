@@ -5,7 +5,29 @@
 
 (add-to-list 'load-path "~/.emacs.d/plugin-lisp/highlight-symbol")
 (require 'highlight-symbol)
-(global-set-key [s-mouse-1] 'highlight-symbol-mode)
-(global-set-key [s-mouse-2] 'highlight-symbol-query-replace)
+
+;; Enable highlight-symbol for specific mode only
+(defun enable-mode()
+  (highlight-symbol-mode 1))
+(dolist (hook (list 'emacs-lisp-mode-hook
+                      'lisp-mode-hook
+                      'ruby-mode-hook
+                      'perl-mode-hook
+                      'php-mode-hook
+                      'html-mode-hook
+                      'web-mode-hook
+                      'sgml-mode-hook
+                      'multi-web-mode-hook
+                      'python-mode-hook
+                      'lua-mode-hook
+                      'c-mode-hook
+                      'java-mode-hook
+                      'js-mode-hook
+        	      'js2-mode-hook
+                      'js3-mode-hook
+                      'css-mode-hook
+                      'c++-mode-hook
+		      'objc-mode-hook))
+  (add-hook hook 'enable-mode))
 
 (provide 'highlight-symbol-config) ;;; highlight-symbol-config.el ends here

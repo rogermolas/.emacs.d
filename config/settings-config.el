@@ -59,19 +59,7 @@
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 ;; Remove sound on scroll
-(setq visible-bell t)
-
-;; Remove the yellow alert icon
-(setq lexical-binding t
-      visible-bell nil
-      ring-bell-function 'asc:flash-background)
-(defun asc:flash-background ()
-  (let ((fg (face-foreground 'default))
-	(bg (face-background 'default)))
-    (run-with-idle-timer
-     1 nil (lambda ()
-	     (set-face-background 'default bg)
-	     (set-face-foreground 'default fg)))))
+(setq ring-bell-function 'ignore)
 
 ;; Truncate lines when exceeding window frame
 (set-default 'truncate-lines t)

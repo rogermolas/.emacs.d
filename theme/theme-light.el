@@ -13,9 +13,9 @@
       (background "#FFFFFF") (foreground "#000000")
       (selection "#A4CDFF")
       
-      (keyword "#0000FF") (string "#45BB3E")
+      (keyword "#0000FF") (string "#A31515")
       (builtin "#2E0D6E") (macro "#643820")
-      (type "#26474B") (comment "#777777")
+      (type "#26474B") (comment "#45BB3E")
       (constants "#26474B") (variables "#b18741") 
       
       (black  "#000000") (white   "#FFFFFF")
@@ -111,7 +111,7 @@
    `(neo-expand-btn-face ((,class (:inherit default :height 115 :weight bold))))
 
    ;; Highlight symbol
-   `(highlight-symbol-face ((,class (:background,dyellow :foreground,black))))
+   `(highlight-symbol-face ((,class (:background,nil :box t))))
 ))
 
 (provide 'theme-light)
