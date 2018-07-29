@@ -6,4 +6,10 @@ Emacs is an extensible, customizable, powerfull and free text editor. Emacs is o
 > Free software means that the software's users have freedom. (The issue is not about price.) 
 
 
+## Themes
 
+#### LIGHT
+![Light Theme](https://raw.githubusercontent.com/rogermolas/emacs-config/master/theme/light.png)
+
+#### DARK
+![Light Theme](https://raw.githubusercontent.com/rogermolas/emacs-config/master/theme/dark.png)
