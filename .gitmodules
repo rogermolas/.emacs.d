@@ -37,3 +37,9 @@
 [submodule "plugin-lisp/iedit"]
 	path = plugin-lisp/iedit
 	url = https://github.com/victorhge/iedit.git
+[submodule "restclient.el"]
+	path = restclient.el
+	url = https://github.com/pashky/restclient.el.git
+[submodule "plugin-lisp/restclient"]
+	path = plugin-lisp/restclient
+	url = https://github.com/pashky/restclient.el.git

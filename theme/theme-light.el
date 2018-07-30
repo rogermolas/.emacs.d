@@ -1,5 +1,5 @@
 ;;; theme-light.el --- A light color scheme theme for Emacs 24.
-
+;;; Commentary:
 ;; Copyright (C) 2018 Roger Molas
 ;; Author: Roger Molas  <mail.rogermolas@gmail.com>
 ;;
@@ -8,16 +8,17 @@
 
 (deftheme theme-light
   "light faces")
+;;; Code:
 
 (let ((class '((class color)(min-colors 10)))
       (background "#FFFFFF") (foreground "#000000")
       (selection "#A4CDFF")
-      
+
       (keyword "#0000FF") (string "#A31515")
       (builtin "#2E0D6E") (macro "#643820")
       (type "#26474B") (comment "#45BB3E")
-      (constants "#26474B") (variables "#b18741") 
-      
+      (constants "#26474B") (variables "#b18741")
+
       (black  "#000000") (white   "#FFFFFF")
       (green  "#00FF00") (dgreen  "#00b200")
       (yellow "#FFFF00") (dyellow "#b2b200")
@@ -33,15 +34,15 @@
    `(linum   ((,class (:foreground,sgray))))
    `(isearch ((,class (:background,white :foreground,black))))
    `(match   ((,class (:background,sgray :foregro2und,black))))
-   
+
    `(region  ((,class (:background,selection))))
    `(cursor  ((,class (:background,black))))
    `(fringe  ((,class (:background,background))))
- 
+
    ;; Highlight
    `(highlight      ((,class (:background,selection))))
     (set-face-attribute 'lazy-highlight nil :background sgray :foreground black)
-   
+
     ;; Font faces
     `(font-lock-string-face            ((,class (:foreground,string :slant italic)))); Strings
     `(font-lock-comment-face           ((,class (:foreground,comment :slant italic)))); Comments
@@ -56,11 +57,11 @@
     `(font-lock-negation-char-face     ((,class (:foreground,foreground)))); Characters like (e.g !)
     `(font-lock-doc-face               ((,class (:foreground,foreground)))); Other Strings
 
-   ;;==================================Built-ins======================================
-   ;; Show parent matching
-   `(show-paren-match-face ((,class (:background,yellow :foreground:,black))))
-   `(show-paren-mismatch   ((,class (:background,red :foreground:,black))))
-
+    ;;==================================Built-ins======================================
+    ;; Show parent matching
+   `(show-paren-match ((,class (:background,yellow))))
+   `(show-paren-mismatch   ((,class (:background,red :foreground:,yellow))))
+   
    ;; Mini buffer
    `(minibuffer-prompt ((,class (:background,background :foreground,black :weight bold))))
 
@@ -72,7 +73,7 @@
    `(mode-line          ((,class (:background,sgray :foreground,black))))
    `(mode-line-inactive ((,class (:background,dgray :foreground,white))))
    `(mode-line-highlight((,class (:background,selection :foreground,white))))
-   
+
    ;; IDO
    `(ido-first-match((,class (:foreground,dgreen :underline,green))))
    `(ido-only-match ((,class (:foreground,dyellow :underline,yellow))))

@@ -5,6 +5,8 @@
 ;; Commentary:
 ;; Code:
 ;; Load path
+
+;;; Code:
 (add-to-list 'load-path "~/.emacs.d/setup/interface")
 (add-to-list 'load-path "~/.emacs.d/setup/programming")
 
@@ -76,6 +78,9 @@
 ;; Line Numbers
 (require 'linum-config)
 
+;; REST Client
+(require 'restclient-config)
+
 ;; ========== ========== ========== ========== ==========
 ;; **************** Commands/Environment ****************
 ;; ========== ========== ========== ========== ==========
@@ -86,4 +91,5 @@
 (setenv "PATH" (concat "/usr/local/bin:/opt/local/bin:/usr/bin:/bin" (getenv "PATH")))
 (require 'cl)
 
-(provide 'plugins-config) ;;; plugins-config.el ends here
+(provide 'plugins-config)
+;;; plugins-config.el ends here

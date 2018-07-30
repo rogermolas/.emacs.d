@@ -10,7 +10,7 @@
 ;; ========== ========== ========== ========== ========== ==========
 ;; Code:
 (add-to-list 'load-path "~/.emacs.d/config")
-(add-to-list 'load-path "~/.emacs.d/theme/")
+(add-to-list 'load-path "~/.emacs.d/theme")
 (require 'settings-config)
 (require 'plugins-config)
 (require 'mode-config)
@@ -38,13 +38,7 @@
  '(anzu-search-threshold 1000)
  '(package-selected-packages
    (quote
-    (flycheck-pycheckers flycheck magit anaconda-mode irony magit))))
+    (flycheck-pycheckers flycheck anaconda-mode irony magit))))
 
-(provide 'init) ;;; init.el ends here
-
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+(provide 'init)
+;;; init.el ends here
