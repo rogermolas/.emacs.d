@@ -3,6 +3,29 @@
 ;;;    Customization and configuration for flycheck.
 ;;; Code:
 
-(setq global-flycheck-mode t)
+
+(defun enable-flycheck-mode()
+  (flycheck-mode t))
+
+(dolist (hook (list 'emacs-lisp-mode-hook
+                      'lisp-mode-hook
+                      'ruby-mode-hook
+                      'perl-mode-hook
+                      'php-mode-hook
+                      'html-mode-hook
+                      'web-mode-hook
+                      'sgml-mode-hook
+                      'multi-web-mode-hook
+                      'python-mode-hook
+                      'lua-mode-hook
+                      'c-mode-hook
+                      'java-mode-hook
+                      'js-mode-hook
+        	      'js2-mode-hook
+                      'js3-mode-hook
+                      'css-mode-hook
+                      'c++-mode-hook
+		      'objc-mode-hook))
+  (add-hook hook 'enable-flycheck-mode))
 
 (provide 'flycheck-config) ;;; flycheck-config.el ends here
