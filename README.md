@@ -2,11 +2,12 @@
 # Emacs Configuration
 Emacs is an extensible, customizable, powerful and free text editor. Emacs is one of [**GNU Project**](https://en.wikipedia.org/wiki/GNU_Project#Origins) a free-software, mass-collaboration project, started by the father of Open source [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) at MIT in 1983.
 
-### Philosophy of the GNU Project
-> Free software means that the software's users have freedom. (The issue is not about price.) 
+## Install the latest Emacs.
+* [Mac OS](http://wikemacs.org/wiki/Installing_Emacs_on_OS_X)
+* [Linux](https://www.gnu.org/software/emacs/)
+* [Windows](https://www.gnu.org/software/emacs/)
 
-
-## Plugins
+## Plugins from Submodule
 #### Interface
 * [anzu](https://github.com/syohex/emacs-anzu/tree/e6c56ca8b23ac433f7be58b6f3f50801dd4164e4)
 * [imenu-anywhere](https://github.com/vspinu/imenu-anywhere/tree/fc7f0fd2f19e5ebee70156a99bf87393123893e3)
@@ -19,7 +20,7 @@ Emacs is an extensible, customizable, powerful and free text editor. Emacs is on
 * [iedit](https://github.com/victorhge/iedit/tree/5b14cc9fcaef509c50f25cff872fba5d70b2c799)
 * [nav-flash](https://github.com/rolandwalker/nav-flash/tree/53f5bc59e3f32c1192d15637d3979732dacb2c35)
 
-### Melpa Repo
+## Package from Melpa Repo
 * [Flycheck](http://www.flycheck.org/en/latest/)
 * [Magit](https://github.com/magit/magit)
 * [REST Client](https://github.com/pashky/restclient.el)
@@ -166,6 +167,10 @@ Emacs is an extensible, customizable, powerful and free text editor. Emacs is on
 
 #### DARK
 ![Light Theme](https://raw.githubusercontent.com/rogermolas/emacs-config/master/theme/dark.png)
+
+
+## Philosophy of the GNU Project
+> Free software means that the software's users have freedom. (The issue is not about price.) 
 
 
 ## HAPPY HACKING!!!
