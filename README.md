@@ -7,6 +7,15 @@ Emacs is an extensible, customizable, powerful and free text editor. Emacs is on
 * [Linux](https://www.gnu.org/software/emacs/)
 * [Windows](https://www.gnu.org/software/emacs/)
 
+## Themes
+
+#### LIGHT
+![Light Theme](https://raw.githubusercontent.com/rogermolas/emacs-config/master/theme/light.png)
+
+#### DARK
+![Light Theme](https://raw.githubusercontent.com/rogermolas/emacs-config/master/theme/dark.png)
+
+
 ## Plugins from Submodule
 #### Interface
 * [anzu](https://github.com/syohex/emacs-anzu/tree/e6c56ca8b23ac433f7be58b6f3f50801dd4164e4)
@@ -159,14 +168,6 @@ Emacs is an extensible, customizable, powerful and free text editor. Emacs is on
 
 * [**irony-mode**](https://github.com/Sarcasm/irony-mode) **for C/C++**
 * [**anaconda-mode**](https://github.com/proofit404/anaconda-mode) **for Python**
-
-## Themes
-
-#### LIGHT
-![Light Theme](https://raw.githubusercontent.com/rogermolas/emacs-config/master/theme/light.png)
-
-#### DARK
-![Light Theme](https://raw.githubusercontent.com/rogermolas/emacs-config/master/theme/dark.png)
 
 
 ## Philosophy of the GNU Project
