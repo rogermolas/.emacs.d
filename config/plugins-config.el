@@ -57,9 +57,6 @@
 ;; Code folding
 (require 'code-folding-config)
 
-;; Highlight symbol
-;(require 'highlight-symbol-config)
-
 ;; Vav-flash highlight line after command
 (require 'nav-flash-config)
 
@@ -80,9 +77,6 @@
 
 ;;; Indent Guide
 (require 'indent-guide-config)
-
-;; REST Client
-(require 'restclient-config)
 
 ;; ========== ========== ========== ========== ==========
 ;; **************** Commands/Environment ****************
