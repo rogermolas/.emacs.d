@@ -1,8 +1,3 @@
-
-Emacs is one of [**GNU Project**](https://en.wikipedia.org/wiki/GNU_Project#Origins) a free-software, mass-collaboration project,
-started by [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) at MIT in 1983.
-
-
 # Why Emacs?
 
 * Emacs is an extensible, customizable, powerful and FREE text editor.
