@@ -1,6 +1,16 @@
 
-# Emacs Configuration
-Emacs is an extensible, customizable, powerful and free text editor. Emacs is one of [**GNU Project**](https://en.wikipedia.org/wiki/GNU_Project#Origins) a free-software, mass-collaboration project, started by the father of Open source [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) at MIT in 1983.
+Emacs is one of [**GNU Project**](https://en.wikipedia.org/wiki/GNU_Project#Origins) a free-software, mass-collaboration project,
+started by [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) at MIT in 1983.
+
+
+# Why Emacs?
+
+* Emacs is an extensible, customizable, powerful and FREE text editor.
+* Freedom!! Unlimitted customization based on what you needs/want.
+* Mail, Browser, Calendar, Games, Music etc.
+* Social media interaction
+* Supported systems including GNU/Linux, GNU/Hurd, Mac OS X, Microsoft Windows, FreeBSD, NetBSD, OpenBSD, and Solaris.
+* A community of hackers/coders that constantly writing new extensions.
 
 ## Install the latest Emacs.
 * [Mac OS](http://wikemacs.org/wiki/Installing_Emacs_on_OS_X)
