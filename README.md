@@ -7,6 +7,12 @@ Emacs is an extensible, customizable, powerful and free text editor. Emacs is on
 * [Linux](https://www.gnu.org/software/emacs/)
 * [Windows](https://www.gnu.org/software/emacs/)
 
+## Usage
+
+``` bash
+$ git clone --recursive https://github.com/rogermolas/.emacs.d
+```
+
 ## Themes
 
 #### LIGHT
@@ -18,20 +24,20 @@ Emacs is an extensible, customizable, powerful and free text editor. Emacs is on
 
 ## Plugins from Submodule
 #### Interface
-* [anzu](https://github.com/syohex/emacs-anzu/tree/e6c56ca8b23ac433f7be58b6f3f50801dd4164e4)
-* [imenu-anywhere](https://github.com/vspinu/imenu-anywhere/tree/fc7f0fd2f19e5ebee70156a99bf87393123893e3)
-* [neotree](https://github.com/jaypei/emacs-neotree/tree/bc98dfb44c106375efa4f26848f3790ee264da97)
-* [powerline](https://github.com/jonathanchu/emacs-powerline/tree/bbbbcd70641249f9dc9d3ea37997d6c60efdaf9b)
+* [anzu](https://github.com/syohex/emacs-anzu)
+* [imenu-anywhere](https://github.com/vspinu/imenu-anywhere)
+* [neotree](https://github.com/jaypei/emacs-neotree)
+* [powerline](https://github.com/jonathanchu/emacs-powerline)
+* [indent-guide](https://github.com/DarthFennec/highlight-indent-guides)
 
 #### Programming
-* [Yasnippet](https://github.com/joaotavora/yasnippet)
-* [auto-complete](https://github.com/auto-complete/auto-complete/tree/2e83566ddfa758c69afe50b8a1c62a66f47471e3)
-* [highlight-symbol](https://github.com/nschum/highlight-symbol.el/tree/7a789c779648c55b16e43278e51be5898c121b3a)
-* [iedit](https://github.com/victorhge/iedit/tree/5b14cc9fcaef509c50f25cff872fba5d70b2c799)
-* [nav-flash](https://github.com/rolandwalker/nav-flash/tree/53f5bc59e3f32c1192d15637d3979732dacb2c35)
+* [yasnippet](https://github.com/joaotavora/yasnippet)
+* [auto-complete](https://github.com/auto-complete/auto-complete)
+* [iedit](https://github.com/victorhge/iedit)
+* [nav-flash](https://github.com/rolandwalker/nav-flash)
 
 ## Package from Melpa Repo
-* [Flycheck](http://www.flycheck.org/en/latest/) **for syntax checking**
+* [Flycheck](http://www.flycheck.org/en/latest) **for syntax checking**
 * [Magit](https://github.com/magit/magit) **for version control system Git**
   
   **Modes**
