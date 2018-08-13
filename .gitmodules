@@ -43,3 +43,6 @@
 [submodule "plugin-lisp/restclient"]
 	path = plugin-lisp/restclient
 	url = https://github.com/pashky/restclient.el.git
+[submodule "plugin-lisp/indent-guide"]
+	path = plugin-lisp/indent-guide
+	url = https://github.com/DarthFennec/highlight-indent-guides.git

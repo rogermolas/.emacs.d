@@ -58,7 +58,7 @@
 (require 'code-folding-config)
 
 ;; Highlight symbol
-(require 'highlight-symbol-config)
+;(require 'highlight-symbol-config)
 
 ;; Vav-flash highlight line after command
 (require 'nav-flash-config)
@@ -77,6 +77,9 @@
 
 ;; Line Numbers
 (require 'linum-config)
+
+;;; Indent Guide
+(require 'indent-guide-config)
 
 ;; REST Client
 (require 'restclient-config)

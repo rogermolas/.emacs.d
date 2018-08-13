@@ -1,11 +1,16 @@
-;;; package ---- "flycheck-config.el" Created by Roger Molas on 07/29/18.
 ;;; Commentary:
-;;;    Customization and configuration for flycheck.
+;;;    Customization and configuration for indent-guide.
 ;;; Code:
 
 
-(defun enable-flycheck-mode()
-  (flycheck-mode t))
+(add-to-list 'load-path "~/.emacs.d/plugin-lisp/indent-guide")
+(require 'highlight-indent-guides)
+
+(defun enable-mode()
+  (highlight-indent-guides-mode t)
+  (setq highlight-indent-guides-method 'character)
+  (setq highlight-indent-guides-character ?\|)
+  )
 
 (dolist (hook (list 'emacs-lisp-mode-hook
                       'lisp-mode-hook
@@ -26,7 +31,6 @@
                       'css-mode-hook
                       'c++-mode-hook
 		      'objc-mode-hook))
-  (add-hook hook 'enable-flycheck-mode))
+  (add-hook hook 'enable-mode))
 
-(provide 'flycheck-config)
-;;; flycheck-config.el ends here
+(provide 'indent-guide-config) ;;; indent-guide.el ends here
