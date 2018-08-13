@@ -32,7 +32,6 @@ Emacs is an extensible, customizable, powerful and free text editor. Emacs is on
 ## Package from Melpa Repo
 * [Flycheck](http://www.flycheck.org/en/latest/)
 * [Magit](https://github.com/magit/magit)
-* [REST Client](https://github.com/pashky/restclient.el)
 * [Yasnippet](https://github.com/joaotavora/yasnippet)
 
 ### Built-in config
