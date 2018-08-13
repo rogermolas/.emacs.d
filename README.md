@@ -24,15 +24,20 @@ Emacs is an extensible, customizable, powerful and free text editor. Emacs is on
 * [powerline](https://github.com/jonathanchu/emacs-powerline/tree/bbbbcd70641249f9dc9d3ea37997d6c60efdaf9b)
 
 #### Programming
+* [Yasnippet](https://github.com/joaotavora/yasnippet)
 * [auto-complete](https://github.com/auto-complete/auto-complete/tree/2e83566ddfa758c69afe50b8a1c62a66f47471e3)
 * [highlight-symbol](https://github.com/nschum/highlight-symbol.el/tree/7a789c779648c55b16e43278e51be5898c121b3a)
 * [iedit](https://github.com/victorhge/iedit/tree/5b14cc9fcaef509c50f25cff872fba5d70b2c799)
 * [nav-flash](https://github.com/rolandwalker/nav-flash/tree/53f5bc59e3f32c1192d15637d3979732dacb2c35)
 
 ## Package from Melpa Repo
-* [Flycheck](http://www.flycheck.org/en/latest/)
-* [Magit](https://github.com/magit/magit)
-* [Yasnippet](https://github.com/joaotavora/yasnippet)
+* [Flycheck](http://www.flycheck.org/en/latest/) **for syntax checking**
+* [Magit](https://github.com/magit/magit) **for version control system Git**
+  
+  **Modes**
+* [**irony-mode**](https://github.com/Sarcasm/irony-mode) **for C/C++**
+* [**anaconda-mode**](https://github.com/proofit404/anaconda-mode) **for Python**
+
 
 ### Built-in config
 * **Code Folding**
@@ -162,11 +167,6 @@ Emacs is an extensible, customizable, powerful and free text editor. Emacs is on
 ```lisp
     (setenv "PATH" (concat "/usr/local/bin:/opt/local/bin:/usr/bin:/bin" (getenv "PATH")))
 ```
-
-## Modes
-
-* [**irony-mode**](https://github.com/Sarcasm/irony-mode) **for C/C++**
-* [**anaconda-mode**](https://github.com/proofit404/anaconda-mode) **for Python**
 
 
 ## Philosophy of the GNU Project

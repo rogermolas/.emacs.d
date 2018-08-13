@@ -38,7 +38,7 @@
  '(anzu-search-threshold 1000)
  '(package-selected-packages
    (quote
-    (magitt yasnippet flycheck-pycheckers flycheck anaconda-mode irony magit))))
+    (magitt flycheck-pycheckers flycheck anaconda-mode irony magit))))
 
 (provide 'init)
 ;;; init.el ends here
