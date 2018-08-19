@@ -23,13 +23,13 @@
                       'multi-web-mode-hook
                       'python-mode-hook
                       'lua-mode-hook
-                      'c-mode-hook
                       'java-mode-hook
                       'js-mode-hook
         	      'js2-mode-hook
                       'js3-mode-hook
                       'css-mode-hook
                       'c++-mode-hook
+		      'c-mode-hook
 		      'objc-mode-hook))
   (add-hook hook 'enable-mode))
 
