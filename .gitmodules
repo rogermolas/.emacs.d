@@ -4,9 +4,6 @@
 [submodule "plugin-lisp/imenu-anywhere"]
 	path = plugin-lisp/imenu-anywhere
 	url = https://github.com/vspinu/imenu-anywhere.git
-[submodule "plugin-lisp/highlight-symbol"]
-	path = plugin-lisp/highlight-symbol
-	url = https://github.com/nschum/highlight-symbol.el.git
 [submodule "plugin-lisp/nav-flash"]
 	path = plugin-lisp/nav-flash
 	url = https://github.com/rolandwalker/nav-flash.git
@@ -22,27 +19,15 @@
 [submodule "plugin-lisp/anzu"]
 	path = plugin-lisp/anzu
 	url = https://github.com/syohex/emacs-anzu.git
-[submodule "plugin-lisp-modes/markdown"]
-	path = plugin-lisp-modes/markdown
-	url = https://github.com/jrblevin/markdown-mode.git
 [submodule "plugin-lisp/imenu-list"]
 	path = plugin-lisp/imenu-list
 	url = https://github.com/bmag/imenu-list.git
 [submodule "plugin-lisp/yasnippet"]
 	path = plugin-lisp/yasnippet
 	url = https://github.com/joaotavora/yasnippet.git
-[submodule "plugin-lisp/snippets"]
-	path = plugin-lisp/snippets
-	url = https://github.com/AndreaCrotti/yasnippet-snippets.git
 [submodule "plugin-lisp/iedit"]
 	path = plugin-lisp/iedit
 	url = https://github.com/victorhge/iedit.git
-[submodule "restclient.el"]
-	path = restclient.el
-	url = https://github.com/pashky/restclient.el.git
-[submodule "plugin-lisp/restclient"]
-	path = plugin-lisp/restclient
-	url = https://github.com/pashky/restclient.el.git
 [submodule "plugin-lisp/indent-guide"]
 	path = plugin-lisp/indent-guide
 	url = https://github.com/DarthFennec/highlight-indent-guides.git
