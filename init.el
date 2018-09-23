@@ -26,6 +26,8 @@
                          ("melpa" . "http://melpa.milkbox.net/packages/")))
 (package-initialize)
 
+(provide 'init)
+;;; init.el ends here
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -36,12 +38,7 @@
  '(anzu-replace-threshold 50)
  '(anzu-replace-to-string-separator " => ")
  '(anzu-search-threshold 1000)
- '(package-selected-packages
-   (quote
-    (magitt flycheck-pycheckers flycheck anaconda-mode irony magit))))
-
-(provide 'init)
-;;; init.el ends here
+ '(package-selected-packages (quote (irony anaconda-mode flycheck magit magitt))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

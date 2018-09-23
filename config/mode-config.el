@@ -1,7 +1,7 @@
 ;;; package ---- "mode-config.el" Created by Roger Molas on 07/11/15.
 ;;; Commentary:
 ;;;    Customization and configuration for programming laguages and other type modes
-;;; Code
+;;; Code:
 
 
 ;; ================================================
@@ -13,6 +13,7 @@
 (add-hook 'c++-mode-hook 'irony-mode)
 (add-hook 'c-mode-hook 'irony-mode)
 (add-hook 'objc-mode-hook 'irony-mode)
+
 (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
 
 ;; Python
@@ -25,4 +26,5 @@
 ;; ================================================
 
 
-(provide 'mode-config) ;;; mode-config.el ends here
+(provide 'mode-config)
+;;; mode-config.el ends here
