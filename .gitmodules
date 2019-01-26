@@ -31,3 +31,6 @@
 [submodule "plugin-lisp/indent-guide"]
 	path = plugin-lisp/indent-guide
 	url = https://github.com/DarthFennec/highlight-indent-guides.git
+[submodule "plugin-lisp/pyvenv"]
+	path = plugin-lisp/pyvenv
+	url = https://github.com/jorgenschaefer/pyvenv.git

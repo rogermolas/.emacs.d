@@ -19,6 +19,8 @@
 ;; Python
 ;; Use anaconda-mode package from melpa repository
 (add-hook 'python-mode-hook 'anaconda-mode)
+(add-to-list 'load-path "~/.emacs.d/plugin-lisp/pyvenv")
+(require 'pyvenv)
 
 
 ;; ================================================
