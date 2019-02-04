@@ -46,10 +46,11 @@ $ git clone --recursive https://github.com/rogermolas/.emacs.d
 * [Magit](https://github.com/magit/magit) **for version control system Git**
 
 #### Modes
-  **C/C++**
+
+**C/C++**
 * [**irony-mode**](https://github.com/Sarcasm/irony-mode)
 
-  **Python**
+**Python**
 * [**anaconda-mode**](https://github.com/proofit404/anaconda-mode)
 * [**pyvenv**](https://github.com/jorgenschaefer/pyvenv.git)
 
