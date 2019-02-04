@@ -41,13 +41,17 @@ $ git clone --recursive https://github.com/rogermolas/.emacs.d
 * [iedit](https://github.com/victorhge/iedit)
 * [nav-flash](https://github.com/rolandwalker/nav-flash)
 
-## Package from Melpa Repo
+#### Package from Melpa Repo
 * [Flycheck](http://www.flycheck.org/en/latest) **for syntax checking**
 * [Magit](https://github.com/magit/magit) **for version control system Git**
-  
-  **Modes**
-* [**irony-mode**](https://github.com/Sarcasm/irony-mode) **for C/C++**
-* [**anaconda-mode**](https://github.com/proofit404/anaconda-mode) **for Python**
+
+#### Modes
+  **C/C++**
+* [**irony-mode**](https://github.com/Sarcasm/irony-mode)
+
+  **Python**
+* [**anaconda-mode**](https://github.com/proofit404/anaconda-mode)
+* [**pyvenv**](https://github.com/jorgenschaefer/pyvenv.git)
 
 
 ### Built-in config
