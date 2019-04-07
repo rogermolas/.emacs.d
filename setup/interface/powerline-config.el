@@ -9,4 +9,5 @@
 (require 'cl)
 (setq powerline-arrow-shape 'arrow14)   ;; the default
 
-(provide 'powerline-config) ;;; powerline-config.el ends here
+(provide 'powerline-config)
+;;; powerline-config.el ends here

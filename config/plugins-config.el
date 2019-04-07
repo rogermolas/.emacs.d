@@ -60,11 +60,11 @@
 ;; Vav-flash highlight line after command
 (require 'nav-flash-config)
 
-;; Auto complete
-(require 'auto-completion-config)
+;; Company aucomplete
+(add-hook 'after-init-hook 'global-company-mode)
 
 ;; yasnippet
-(require 'yasnippet-config)
+;(require 'yasnippet-config)
 
 ;; flycheck
 (require 'flycheck-config)

@@ -38,7 +38,7 @@
  '(anzu-replace-threshold 50)
  '(anzu-replace-to-string-separator " => ")
  '(anzu-search-threshold 1000)
- '(package-selected-packages (quote (irony anaconda-mode flycheck magit magitt))))
+ '(package-selected-packages (quote (company anaconda-mode flycheck magit magitt))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

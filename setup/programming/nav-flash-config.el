@@ -7,4 +7,5 @@
 (require 'nav-flash)
 (add-hook 'imenu-after-jump-hook 'nav-flash-show t)
 
-(provide 'nav-flash-config) ;;; nav-flash-config.el ends here
+(provide 'nav-flash-config)
+;;; nav-flash-config.el ends here

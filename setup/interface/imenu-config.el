@@ -11,4 +11,5 @@
 (setq semantic-imenu-summary-function (quote semantic-format-tag-name))
 (setq semantic-which-function-use-color t)
 
-(provide 'imenu-config) ;;; imenu-config.el ends here
+(provide 'imenu-config)
+;;; imenu-config.el ends here

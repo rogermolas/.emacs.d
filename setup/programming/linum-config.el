@@ -81,4 +81,5 @@
 ;; Add line number with format to buffer
 (setq linum-format "%3d\u2502")
 
-(provide 'linum-config) ;;; linum-config.el ends here 
+(provide 'linum-config)
+;;; linum-config.el ends here

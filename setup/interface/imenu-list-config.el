@@ -13,4 +13,5 @@
 (setq imenu-list-position 'right)
 (global-set-key (kbd "C-'") #'imenu-list-smart-toggle)
 
-(provide 'imenu-list-config) ;;; imenu-list-config.el ends here
+(provide 'imenu-list-config)
+;;; imenu-list-config.el ends here

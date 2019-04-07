@@ -19,4 +19,5 @@
           "M-x "
           (all-completions "" obarray 'commandp))))))
 
-(provide 'ido-config) ;;; ido-config.el ends here
+(provide 'ido-config)
+;;; ido-config.el ends here

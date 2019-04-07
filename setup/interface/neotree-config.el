@@ -8,4 +8,5 @@
 (global-set-key (kbd "s-1") 'neotree-toggle)
 (setq neo-theme (quote ascii))
 
-(provide 'neotree-config) ;;; neotree-config.el ends here
+(provide 'neotree-config)
+;;; neotree-config.el ends here
