@@ -51,7 +51,7 @@
 ;; Commentary:
 ;; Code:
 
-;; Anzu count search and replace functio
+;; Anzu count search and replace function
 (require 'anzu-config)
 
 ;; Code folding

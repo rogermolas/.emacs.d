@@ -30,12 +30,12 @@
   (add-hook hook 'hs-minor-mode))
 
 ;; Toggle
- (defun toggle-selective-display (column)
-      (interactive "P")
-      (set-selective-display
-       (or column
-           (unless selective-display
-             (1+ (current-column))))))
+(defun toggle-selective-display (column)
+  (interactive "P")
+  (set-selective-display
+   (or column
+       (unless selective-display
+	 (1+ (current-column))))))
 
 ;; Hide lines on command double click key
 (defun toggle-hiding (column)
@@ -48,4 +48,5 @@
         (toggle-selective-display column)))
 
 (global-set-key [s-double-mouse-1] 'toggle-hiding)
-(provide 'code-folding-config) ;;; code-folding-config.el ends here
+(provide 'code-folding-config)
+;;; code-folding-config.el ends here
