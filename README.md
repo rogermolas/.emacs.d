@@ -27,32 +27,26 @@ $ git clone --recursive https://github.com/rogermolas/.emacs.d
 ![Light Theme](https://raw.githubusercontent.com/rogermolas/emacs-config/master/theme/dark.png)
 
 
-## Plugins from Submodule
-#### Interface
-* [anzu](https://github.com/syohex/emacs-anzu)
-* [imenu-anywhere](https://github.com/vspinu/imenu-anywhere)
+## Plugins
+
+#### Submodule
 * [neotree](https://github.com/jaypei/emacs-neotree)
+* [imenu-anywhere](https://github.com/vspinu/imenu-anywhere)
 * [powerline](https://github.com/jonathanchu/emacs-powerline)
 * [indent-guide](https://github.com/DarthFennec/highlight-indent-guides)
-
-#### Programming
-* [yasnippet](https://github.com/joaotavora/yasnippet)
-* [auto-complete](https://github.com/auto-complete/auto-complete)
 * [iedit](https://github.com/victorhge/iedit)
 * [nav-flash](https://github.com/rolandwalker/nav-flash)
 
-#### Package from Melpa Repo
-* [Flycheck](http://www.flycheck.org/en/latest) **for syntax checking**
-* [Magit](https://github.com/magit/magit) **for version control system Git**
+#### Melpa Repo
+* [flycheck](http://www.flycheck.org/en/latest)
+* [flycheck-pos-tip](https://github.com/flycheck/flycheck-pos-tip)
+* [anaconda-mode](https://github.com/proofit404/anaconda-mode)
+* [company-anaconda](https://github.com/proofit404/company-anaconda)
+* [company-quickhelp](https://github.com/expez/company-quickhelp)
+* [pyvenv](https://github.com/jorgenschaefer/pyvenv.git)
+* [Magit](https://github.com/magit/magit)
 
-#### Modes
 
-**C/C++**
-* [**irony-mode**](https://github.com/Sarcasm/irony-mode)
-
-**Python**
-* [**anaconda-mode**](https://github.com/proofit404/anaconda-mode)
-* [**pyvenv**](https://github.com/jorgenschaefer/pyvenv.git)
 
 
 ### Built-in config
@@ -184,6 +178,9 @@ $ git clone --recursive https://github.com/rogermolas/.emacs.d
     (setenv "PATH" (concat "/usr/local/bin:/opt/local/bin:/usr/bin:/bin" (getenv "PATH")))
 ```
 
+
+## Key Binding
+### WIP
 
 ## Philosophy of the GNU Project
 > Free software means that the software's users have freedom. (The issue is not about price.) 

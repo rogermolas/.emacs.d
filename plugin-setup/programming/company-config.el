@@ -9,7 +9,8 @@
 (setq company-idle-delay 0)
 
 (setq company-quickhelp-mode 1)
-(setq company-quickhelp-delay 0)
+(setq company-quickhelp-delay 1)
+(setq company-quickhelp-local-mode 1)
 
 
 (provide 'company-config)

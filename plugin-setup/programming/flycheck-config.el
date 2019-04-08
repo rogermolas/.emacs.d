@@ -7,6 +7,9 @@
 (defun enable-flycheck-mode()
   (flycheck-mode t))
 
+(with-eval-after-load 'flycheck
+  (flycheck-pos-tip-mode))
+
 (dolist (hook (list 'emacs-lisp-mode-hook
                       'lisp-mode-hook
                       'ruby-mode-hook
