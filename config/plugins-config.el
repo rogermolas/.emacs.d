@@ -7,20 +7,17 @@
 ;; Load path
 
 ;;; Code:
-(add-to-list 'load-path "~/.emacs.d/setup/interface")
-(add-to-list 'load-path "~/.emacs.d/setup/programming")
-
-;; ========== ========== ========== ========== ==========
-;; ************** FILE / DIRECTORY MANAGER  *************
-;; ========== ========== ========== ========== ==========
-(require 'neotree-config)
+(add-to-list 'load-path "~/.emacs.d/plugin-setup/interface")
+(add-to-list 'load-path "~/.emacs.d/plugin-setup/programming")
 
 ;; ========== ========== ========== ========== ==========
 ;; ******************** INTERFACE ***********************
 ;; ========== ========== ========== ========== ==========
-
 ;; Commentary:
 ;; Code:
+;; Directory browser
+(require 'neotree-config)
+
 ;; Interactive do things
 (require 'ido-config)
 
@@ -47,12 +44,8 @@
 ;; ========== ========== ========== ========== ==========
 ;; ******************* PROGRAMMING **********************
 ;; ========== ========== ========== ========== ==========
-
 ;; Commentary:
 ;; Code:
-
-;; Anzu count search and replace function
-(require 'anzu-config)
 
 ;; Code folding
 (require 'code-folding-config)
@@ -61,12 +54,12 @@
 (require 'nav-flash-config)
 
 ;; Company aucomplete
-(add-hook 'after-init-hook 'global-company-mode)
+(require 'company-config)
 
 ;; yasnippet
-;(require 'yasnippet-config)
+(require 'yasnippet-config)
 
-;; flycheck
+;; Flycheck
 (require 'flycheck-config)
 
 ;; iedit
@@ -77,6 +70,21 @@
 
 ;;; Indent Guide
 (require 'indent-guide-config)
+
+;; ========== ========== ========== ========== ==========
+;; ********************* MODES *** **********************
+;; ========== ========== ========== ========== ==========
+;; Commentary:
+;; Python
+;; Use anaconda-mode package from melpa repository
+(add-hook 'python-mode-hook 'anaconda-mode)
+(add-hook 'python-mode-hook 'anaconda-eldoc-mode)
+
+(eval-after-load "company"
+ '(add-to-list 'company-backends 'company-anaconda))
+
+(add-to-list 'load-path "~/.emacs.d/plugin-lisp/pyvenv")
+(require 'pyvenv)
 
 ;; ========== ========== ========== ========== ==========
 ;; **************** Commands/Environment ****************
