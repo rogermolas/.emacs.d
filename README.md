@@ -32,6 +32,7 @@ $ git clone --recursive https://github.com/rogermolas/.emacs.d
 #### Submodule
 * [neotree](https://github.com/jaypei/emacs-neotree)
 * [imenu-anywhere](https://github.com/vspinu/imenu-anywhere)
+* [imenu-list](https://github.com/bmag/imenu-list.git)
 * [powerline](https://github.com/jonathanchu/emacs-powerline)
 * [indent-guide](https://github.com/DarthFennec/highlight-indent-guides)
 * [iedit](https://github.com/victorhge/iedit)
