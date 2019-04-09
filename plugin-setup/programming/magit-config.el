@@ -4,4 +4,5 @@
 ;;; Code:
 
 (global-set-key (kbd "s-0") 'magit-status)
-(provide 'magit-config) ;;; magit-config.el ends here
+(provide 'magit-config)
+;;; magit-config.el ends here
