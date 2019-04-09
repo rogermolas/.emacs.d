@@ -83,9 +83,6 @@
 (eval-after-load "company"
  '(add-to-list 'company-backends 'company-anaconda))
 
-(add-to-list 'load-path "~/.emacs.d/plugin-lisp/pyvenv")
-(require 'pyvenv)
-
 ;; ========== ========== ========== ========== ==========
 ;; **************** Commands/Environment ****************
 ;; ========== ========== ========== ========== ==========

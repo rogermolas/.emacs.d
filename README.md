@@ -40,12 +40,22 @@ $ git clone --recursive https://github.com/rogermolas/.emacs.d
 #### Melpa Repo
 * [flycheck](http://www.flycheck.org/en/latest)
 * [flycheck-pos-tip](https://github.com/flycheck/flycheck-pos-tip)
+* [yasnippet](https://github.com/joaotavora/yasnippet)
+* [yasnippet-snippets]()
+* [magit](https://github.com/magit/magit)
+
+#### Python
 * [anaconda-mode](https://github.com/proofit404/anaconda-mode)
 * [company-anaconda](https://github.com/proofit404/company-anaconda)
 * [company-quickhelp](https://github.com/expez/company-quickhelp)
-* [pyvenv](https://github.com/jorgenschaefer/pyvenv.git)
-* [Magit](https://github.com/magit/magit)
+* [flycheck-pycheckers](https://github.com/msherry/flycheck-pycheckers)
 
+
+#### C/C++
+
+#### Swift
+
+#### Markdown
 
 
 
