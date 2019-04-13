@@ -25,20 +25,25 @@
                          ("melpa" . "http://melpa.milkbox.net/packages/")))
 (package-initialize)
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   (quote
-    (flycheck-pos-tip flycheck-pycheckers yasnippet yasnippet-snippets company-anaconda company-quickhelp company anaconda-mode flycheck magit magitt))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+(when (not package-archive-contents)
+  (package-refresh-contents))
+
+(defvar myPackages
+  '(flycheck-pos-tip
+    flycheck-pycheckers
+    yasnippet
+    yasnippet-snippets
+    company
+    anaconda-mode
+    company-anaconda
+    flycheck
+    magit
+    company-quickhelp))
+
+(mapc #'(lambda (package)
+    (unless (package-installed-p package)
+      (package-install package)))
+      myPackages)
 
 (provide 'init)
 ;;; init.el ends here
