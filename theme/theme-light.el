@@ -70,8 +70,8 @@
    `(warning ((,class (:foreground,yellow :weight bold))))
 
    ;; Mode line
-   `(mode-line          ((,class (:background,sgray :foreground,black))))
-   `(mode-line-inactive ((,class (:background,dgray :foreground,white))))
+   `(mode-line          ((,class (:background,dgray :foreground,white))))
+   `(mode-line-inactive ((,class (:background,gray :foreground,black))))
    `(mode-line-highlight((,class (:background,selection :foreground,white))))
 
    ;; IDO
