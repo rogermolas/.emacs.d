@@ -3,7 +3,6 @@
 ;;;    Customization and configuration for yasnippet.
 ;;; Code:
 
-;(yas-global-mode 1)
 (setq yas-reload-all 1)
 (add-hook 'prog-mode-hook #'yas-minor-mode)
 

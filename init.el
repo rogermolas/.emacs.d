@@ -22,7 +22,7 @@
 ;; Code:
 (require 'package)
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-                         ("melpa" . "http://melpa.milkbox.net/packages/")))
+                         ("melpa-stable" . "https://stable.melpa.org/packages/")))
 (package-initialize)
 
 (when (not package-archive-contents)
@@ -36,6 +36,8 @@
     company
     anaconda-mode
     company-anaconda
+    pyvenv
+    markdown-mode
     flycheck
     magit
     company-quickhelp))
