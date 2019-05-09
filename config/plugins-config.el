@@ -78,10 +78,10 @@
 ;; Python
 ;; Use anaconda-mode package from melpa repository
 (add-hook 'python-mode-hook 'anaconda-mode)
-(add-hook 'python-mode-hook 'anaconda-eldoc-mode)
+(add-hook 'python-mode-hook 'pyvenv-mode)
 
 (eval-after-load "company"
- '(add-to-list 'company-backends 'company-anaconda))
+ '(add-to-list 'company-backends '(company-anaconda :with company-capf)))
 
 ;; ========== ========== ========== ========== ==========
 ;; **************** Commands/Environment ****************
