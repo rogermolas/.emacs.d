@@ -81,7 +81,11 @@
 (add-hook 'python-mode-hook 'pyvenv-mode)
 
 (eval-after-load "company"
- '(add-to-list 'company-backends '(company-anaconda :with company-capf)))
+  '(add-to-list 'company-backends '(company-anaconda :with company-capf)))
+
+;; Commentary:
+;; Org
+(require 'org-config)
 
 ;; ========== ========== ========== ========== ==========
 ;; **************** Commands/Environment ****************
