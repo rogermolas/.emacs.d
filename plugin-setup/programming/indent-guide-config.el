@@ -28,9 +28,10 @@
         	      'js2-mode-hook
                       'js3-mode-hook
                       'css-mode-hook
-                      'c++-mode-hook
+		      'c++-mode-hook
 		      'c-mode-hook
 		      'objc-mode-hook))
   (add-hook hook 'enable-mode))
 
-(provide 'indent-guide-config) ;;; indent-guide.el ends here
+(provide 'indent-guide-config)
+;;; indent-guide.el ends here
