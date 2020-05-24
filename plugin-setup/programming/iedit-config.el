@@ -9,4 +9,5 @@
 ; Fix iedit bug in Mac
 (define-key global-map (kbd "C-c ;") 'iedit-mode)
 
-(provide 'iedit-config) ;;; iedit-config.el ends here
+(provide 'iedit-config)
+;;; iedit-config.el ends here

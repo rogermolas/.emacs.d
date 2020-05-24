@@ -29,6 +29,5 @@
 	  (indent-for-tab-command)))))
 
 (global-set-key (kbd "C-c e") 'tab-indent-or-complete)
-
 (provide 'yasnippet-config)
 ;;; yasnippet-config.el ends here
